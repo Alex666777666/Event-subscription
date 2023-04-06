@@ -11,7 +11,7 @@ class Dimensions extends Component {
       width,
       height,
     })
-    document.title = `${innerHeight} x ${innerWidth}`
+    document.title = `${innerWidth} x ${innerHeight}`
   }
 
   onResize = e => {
